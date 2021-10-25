@@ -12,7 +12,7 @@ body {
 /* main */
 /* banner */
 .main .banner {
-  padding: 50px 0;
+  padding: 70px 0 50px 0;
 }
 .main .banner .banner__bgborder {
   background-image: url("./../img/border-bg-banner.png");

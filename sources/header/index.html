@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--  -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header">
+      <nav class="navbar">
+        <div class="max-width">
+          <div class="logo">
+            <a href="/RP_Assignment/home/index"><img src="./logo.png" alt="" /></a>
+          </div>
+          <ul class="menu">
+            <li><a href="/RP_Assignment/home/index" class="menu-btn">Trang chủ</a></li>
+            <li><a href="/RP_Assignment/about-react/index" class="menu-btn">Giới thiệu</a></li>
+            <li><a href="/RP_Assignment/cultural/index" class="menu-btn">Văn hóa</a></li>
+            <li><a href="/RP_Assignment/recruitment/index" class="menu-btn">Tuyển dụng</a></li>
+            <li><a href="/RP_Assignment/training-and-events/index" class="menu-btn">Đào tạo & Sự kiện</a></li>
+            <li><a href="/RP_Assignment/community/index" class="menu-btn">Vì cộng đồng</a></li>
+            <li><a href="/RP_Assignment/news-and-blogs/index" class="menu-btn">Tin tức & Blog</a></li>
+          </ul>
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".menu-btn").click(function () {
+          $(".navbar .menu").toggleClass("active");
+          $(".menu-btn i").toggleClass("active");
+        });
+      });
+    </script>
+    <!-- end header -->
+    </script>
+  </body>
+</html>

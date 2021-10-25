@@ -10,210 +10,50 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- end fontawesome -->
     <!-- reset css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- base css -->
     <link rel="stylesheet" href="./assets/css/base.css" />
     <!-- style css -->
-    <!-- <link rel="stylesheet" href="./assets/css/header.css"> -->
+    <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- wrapper -->
     <div class="wrapper">
       <!-- header -->
-      <!-- <header>
-        <nav
-          class="
-            nabbar
-            navbar
-            d-md-flex
-            justify-content-between
-            align-items-center
-          "
-        >
-          <div class="containers">
-            <div class="logo-image">
-              <div class="image">
-                <img src="./assets/img/logo.png" alt="image" />
-              </div>
+      <div class="header">
+        <nav class="navbar">
+          <div class="max-width">
+            <div class="logo">
+              <a href="/RP_Assignment/home/index"><img src="./assets/img/logo.png" alt="" /></a>
             </div>
-
-            <div class="nav-menu_right">
-              <ul class="nav-ul">
-                <li><a href="/RP_Assignment/home/index">Trang chủ</a></li>
-                <li><a href="/RP_Assignment/about/index">Giới thiệu</a></li>
-                <li><a href="/RP_Assignment/calcurltu/index">Văn hóa</a></li>
-                <li>
-                  <a href="/RP_Assignment/recruitment/index">Tuyển dụng</a>
-                </li>
-                <li>
-                  <a href="/RP_Assignment/training-and-events/index"
-                    >Đào tạo & Sự kiện</a
-                  >
-                </li>
-                <li>
-                  <a href="/RP_Assignment/community/index">Vì cộng đồng</a>
-                </li>
-                <li>
-                  <a href="/RP_Assignment/news-and-blogs/index"
-                    >Tin tức & Blog</a
-                  >
-                </li>
-              </ul>
-
-              <a
-                class="navbar-mobile"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight"
-                aria-controls="offcanvasRight"
-              >
-                <i
-                  class="fas fa-bars"
-                  style="
-                    color: #000;
-                    display: flex;
-                    justify-content: flex-end;
-                    align-items: flex-end;
-                    font-size: 25px;
-                  "
-                ></i>
-              </a>
-            </div>
-
-            <div
-              class="offcanvas offcanvas-end"
-              tabindex="-1"
-              id="offcanvasRight"
-              aria-labelledby="offcanvasRightLabel"
-            >
-              <button
-                type="button"
-                class="btn-close text-reset"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-              <div class="offcanvas-body">
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <a
-                      class="accordion-buttons"
-                      href="/RP_Assignment/home/index"
-                    >
-                      Trang chủ
-                    </a>
-                  </div>
-
-                  <div class="">
-                    <a
-                      class="accordion-button collapsed d-none"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                      href="/RP_Assignment/about/index"
-                    >
-                      Giới thiệu
-                    </a>
-                    <div
-                      id="collapseOne"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div class="accordion-body">
-                        <ul>
-                          <li><a href="#">Về React & React Native</a></li>
-                          <li><a href="#">Công ty React Plus</a></li>
-                          <li><a href="#">Các khoá đào tạo</a></li>
-                          <li><a href="#">Sự kiện thường kỳ</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="accordion-item">
-                    <a
-                      class="accordion-buttons"
-                      href="/RP_Assignment/calcurltu/index"
-                    >
-                      Văn hóa
-                    </a>
-                  </div>
-
-                  <div class="accordion-item">
-                    <a
-                      class="accordion-buttons"
-                      href="/RP_Assignment/recruitment/index"
-                    >
-                      Tuyển dụng
-                    </a>
-                  </div>
-                  <div class="">
-                    <a
-                      class="accordion-button collapsed d-none"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                      href="/RP_Assignment/training-and-events/index"
-                    >
-                      Đào tạo & Sự kiện
-                    </a>
-                    <div
-                      id="collapseTwo"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div class="accordion-body">
-                        <ul>
-                          <li>
-                            <a href="#">
-                              <ion-icon
-                                name="chevron-forward-outline"
-                              ></ion-icon
-                              >Bảng tin
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <ion-icon
-                                name="chevron-forward-outline"
-                              ></ion-icon
-                              >Thiết kế Web
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <a
-                      class="accordion-buttons"
-                      href="/RP_Assignment/community/index"
-                    >
-                      Vì Cộng đồng
-                    </a>
-                  </div>
-                  <div class="accordion-item">
-                    <a
-                      class="accordion-buttons"
-                      href="/RP_Assignment/news-and-blogs/index"
-                    >
-                      Tin tức & Blog
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <ul class="menu">
+              <li><a href="/RP_Assignment/home/index" class="menu-btn">Trang chủ</a></li>
+              <li><a href="/RP_Assignment/about/index" class="menu-btn">Giới thiệu</a></li>
+              <li><a href="/RP_Assignment/cultural/index" class="menu-btn">Văn hóa</a></li>
+              <li><a href="/RP_Assignment/recruitment/index" class="menu-btn">Tuyển dụng</a></li>
+              <li><a href="/RP_Assignment/training-and-events/index" class="menu-btn">Đào tạo & Sự kiện</a></li>
+              <li><a href="/RP_Assignment/community/index" class="menu-btn">Vì cộng đồng</a></li>
+              <li><a href="/RP_Assignment/news-and-blogs/index" class="menu-btn">Tin tức & Blog</a></li>
+            </ul>
+            <div class="menu-btn">
+              <i class="fas fa-bars"></i>
             </div>
           </div>
         </nav>
-      </header> -->
+      </div>
+      <script>
+        $(document).ready(function () {
+          $(".menu-btn").click(function () {
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+          });
+        });
+      </script>
       <!-- end header -->
       <!-- main -->
       <div class="main">
