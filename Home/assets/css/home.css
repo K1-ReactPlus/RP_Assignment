@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 .container {
@@ -63,12 +64,15 @@ img {
     text-align: center;
 }
 
-.mainOne p {
+.PmainOne {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 21px;
     text-align: center;
     color: #52575C;
+    margin: 0 auto;
+    width: 671px;
+    margin-top: 19px;
 }
 
 .mainOneGrid {
@@ -78,6 +82,7 @@ img {
 }
 
 .mainOneItem img {
+    padding-bottom: 25px;
     width: 138px;
     height: 112px;
 }
@@ -93,6 +98,88 @@ img {
 }
 
 /*The end mainOne*/
+
+/*CSS mainTow*/
+
+.mainTow {
+    margin-top: 60px;
+    background: linear-gradient(180deg, #F4F6FA 0%, rgba(244, 246, 250, 0) 83.85%);
+}
+
+.mainTow a {
+    text-decoration: none;
+}
+
+.mainTowCenter {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0BBEE7;
+}
+
+.mainTow h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 14px;
+    font-size: 32px;
+    line-height: 48px;
+    color: #25282B;
+}
+
+.mainTowCenters {
+    width: 685px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    line-height: 19px;
+    color: #52575C;
+    padding-bottom: 33px;
+}
+
+.mainTowGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #FFFFFF;
+}
+
+.mainTowItem {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+}
+
+.links {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #25282B;
+    margin-top: 10px;
+}
+
+.time {
+    font-family: 'Poppins', sans-serif;
+    width: 381px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #A0A4A8;
+}
+
+.content {
+    font-family: 'Poppins', sans-serif;
+    width: 381px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #25282B;
+    margin-top: 9px;
+}
+
+.btn {
+    border: 1px solid #0BBEE7;
+    border-radius: 20px;
+    text-align: center;
+    width: 152px;
+    color: #0BBEE7;
+    margin-top: 14px;
+}
 
 /* reponsive screen ipad */
 
@@ -145,5 +232,55 @@ img {
         line-height: 30px;
         text-align: center;
         color: #25282B;
+        width: 267px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    .PmainOne {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #52575C;
+        margin: 0 auto;
+        width: 343px;
+    }
+    .mainOneItem {
+        margin-bottom: 56px;
+    }
+    .mainTowCenters {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 13px;
+        line-height: 19px;
+        color: #52575C;
+        padding-bottom: 33px;
+    }
+    .mainTowItem {
+        font-family: 'Poppins', sans-serif;
+        padding: 10px;
+    }
+    .mainTowGrid {
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+    }
+    
+    .content {
+        font-family: 'Poppins', sans-serif;
+        width: 316px;
+        font-size: 13px;
+        line-height: 19px;
+        color: #25282B;
+        margin-top: 9px;
+    }
+    
+    .time {
+        font-family: 'Poppins', sans-serif;
+        width: 366.65px;
+        font-size: 13px;
+        line-height: 19px;
+        color: #A0A4A8;
     }
 }
