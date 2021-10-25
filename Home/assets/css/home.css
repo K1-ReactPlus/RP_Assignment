@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+/* Slide show */
+
+img {
+    width: 100%;
+}
+
+/* div cha img */
+
+.single-item {
+    position: relative;
+}
+
+/* Nút điều hướng slide */
+
+.slick-dots {
+    position: absolute;
+    top: 90%;
+    z-index: 9;
+}
+
+.slick-dots li button:before {
+    font-size: 15px;
+}
+
+/* button preview */
+
+.slick-prev {
+    left: 10%;
+    z-index: 9;
+}
+
+.slick-prev:before {
+    font-size: 32px;
+}
+
+/* button next */
+
+.slick-next:before {
+    font-size: 32px;
+}
+
+.slick-next {
+    right: 10%;
+}
+
+/*CSS mainOne*/
+
+.mainOne h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    color: #25282B;
+    text-align: center;
+}
+
+.mainOne p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #52575C;
+}
+
+.mainOneGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 43px;
+}
+
+.mainOneItem img {
+    width: 138px;
+    height: 112px;
+}
+
+.mainOneItem {
+    text-align: center;
+}
+
+.mainOneItem p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/*The end mainOne*/
+
+/* reponsive screen ipad */
+
+@media (max-width: 1024px) {
+    .slick-dots {
+        position: absolute;
+        top: 80%;
+        z-index: 9;
+    }
+    .slick-dots li button:before {
+        font-size: 12px;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+}
+
+/* reponsive screen mobile */
+
+@media (max-width: 768px) {
+    /*reponsive Slide*/
+    .slick-prev:before {
+        font-size: 0px;
+    }
+    .slick-next:before {
+        font-size: 0px;
+    }
+    .slick-dots li button:before {
+        font-size: 8px;
+    }
+    /*reponsive container*/
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid red;
+        padding: 16px;
+    }
+    /*reponsive mainOne*/
+    .mainOneGrid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainOne h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #25282B;
+    }
+}
