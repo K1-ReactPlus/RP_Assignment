@@ -12,7 +12,7 @@ body {
 /* main */
 /* banner */
 .main .banner {
-  padding: 70px 0 50px 0;
+  padding: 150px 0 50px 0;
 }
 .main .banner .banner__bgborder {
   background-image: url("./../img/border-bg-banner.png");
@@ -197,7 +197,7 @@ body {
 }
 @media all and (max-width: 576px) {
   .main .banner {
-    padding: 0px;
+    padding: 100px 0 0 0;
   }
   .main .question .question__inner .question__inner__right {
     margin: 0;
