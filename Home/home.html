@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./slick-1.8.1/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="./slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="./assets/css/home.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     </style>
@@ -15,6 +17,32 @@
 </head>
 
 <body>
+
+    <!-- header -->
+    <div class="header">
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo">
+                    <a href="/RP_Assignment/home/index"><img src="./assets/image/logo.png" alt="" /></a>
+                </div> 
+                <ul class="menu">
+                    <li><a href="/RP_Assignment/home/index" class="menu-btn">Trang chủ</a></li>
+                    <li><a href="/RP_Assignment/about-react/index" class="menu-btn">Giới thiệu</a></li>
+                    <li><a href="/RP_Assignment/cultural/index" class="menu-btn">Văn hóa</a></li>
+                    <li><a href="/RP_Assignment/recruitment/index" class="menu-btn">Tuyển dụng</a></li>
+                    <li><a href="/RP_Assignment/training-and-events/index" class="menu-btn">Đào tạo & Sự kiện</a></li>
+                    <li><a href="/RP_Assignment/community/index" class="menu-btn">Vì cộng đồng</a></li>
+                    <li><a href="/RP_Assignment/news-and-blogs/index" class="menu-btn">Tin tức & Blog</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
     <div class="slide">
         <div class="single-item slider">
             <div>
@@ -61,13 +89,16 @@
             </div>
         </div>
 
+
+
         <div class="mainTow">
             <div class="mainTowCenter">
                 <a href="">CỘNG ĐỒNG</a>
             </div>
 
             <h1>Đào tạo & Sự kiện về React</h1>
-            <p class="mainTowCenters">Với mong muốn xây dựng cộng đồng kỹ sư làm về React cùng nhau phát triển tại Việt Nam, chúng tôi tổ chức
+            <p class="mainTowCenters">Với mong muốn xây dựng cộng đồng kỹ sư làm về React cùng nhau phát triển tại Việt
+                Nam, chúng tôi tổ chức
                 các đợt đào tạo và sự kiện hàng tháng để giúp các kỹ sư trên toàn quốc cùng nhau học hỏi, cập nhật những
                 thay đổi mới nhất về React. Ngoài ra, mỗi năm một lần, chúng tôi sẽ tổ chức một sự kiện lớn với sự tham
                 gia của các chuyên gia React hàng đầu Việt Nam và thế giới.</p>
@@ -77,11 +108,12 @@
                     <img src="./assets/image/mainTowItem1.png" alt="">
                     <p class="time">01/10/2021 - 28/11/2021</p>
                     <a href="" class="links">Khoá đào tạo mầm non React </a>
-                    <p class="content">Khoá đào tạo hoàn toàn miễn phí giúp các bạn sinh viên IT bước đầu làm quen với React - React
+                    <p class="content">Khoá đào tạo hoàn toàn miễn phí giúp các bạn sinh viên IT bước đầu làm quen với
+                        React - React
                         Native và có cơ hội làm việc tại React Plus trong các dự án quốc tế.</p>
                     <div class="btn">
                         <a href="">Tìm hiểu thêm &rarr;</a>
-                        
+
                     </div>
                 </div>
 
@@ -89,7 +121,8 @@
                     <img src="./assets/image/mainTowItem2.png" alt="">
                     <p class="time">01/10/2021 - 28/11/2021</p>
                     <a href="" class="links">Talkshow: Ứng dụng React trong ABC giúp cho BCD </a>
-                    <p class="content">Khoá đào tạo hoàn toàn miễn phí giúp các bạn sinh viên IT bước đầu làm quen với React - React
+                    <p class="content">Khoá đào tạo hoàn toàn miễn phí giúp các bạn sinh viên IT bước đầu làm quen với
+                        React - React
                         Native và có cơ hội làm việc tại React Plus trong các dự án quốc tế.</p>
                     <div class="btn">
                         <a href="">Tìm hiểu thêm &rarr;</a>
@@ -97,6 +130,157 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="timeLine">
+            <div class="trainingRoute-grid-layout responsives">
+                <div class="trainingRoute-grid-content">
+                    <div class="date"><b>01.10.2021 - 28.11.2021</b></div>
+                    <div class="divide">
+                        <div class="hr">
+                        </div>
+                        <div class="circle">
+                            <p> </p>
+                        </div>
+                    </div>
+                    <p><b>Talkshow</b></p>
+                    <div class="trainingRoute-text">
+                        <p>Tương lai của React trên thị trường Việt Nam và quốc tế</p>
+                    </div>
+                </div>
+                <div class="trainingRoute-grid-content">
+                    <div class="date"><b>01.10.2021 - 28.11.2021 </b></div>
+
+                    <div class="divide">
+                        <div class="hr">
+                        </div>
+                        <div class="circle">
+                            <p> </p>
+                        </div>
+                    </div>
+                    <p><b>Khoá đào tạo Mầm non React</b></p>
+                    <div class="trainingRoute-text">
+                        <p>Tương lai của React trên thị trường Việt Nam và quốc tế</p>
+                    </div>
+                </div>
+                <div class="trainingRoute-grid-content">
+                    <div class="date"><b>01.10.2021 - 28.11.2021 </b></div>
+                    <div class="divide">
+                        <div class="hr">
+                        </div>
+                        <div class="circle">
+                            <p> </p>
+                        </div>
+                    </div>
+                    <p><b>Talkshow</b></p>
+                    <div class="trainingRoute-text">
+                        <p>Tương lai của React trên thị trường Việt Nam và quốc tế</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mainThree">
+            <div class="mainThreeLeft">
+                <img src="./assets/image/mainThreeLeft.png" alt="">
+            </div>
+            <div class="mainThreeRight">
+                <a href="" class="linkss">MIỄN PHÍ</a>
+                <h1>Tài liệu về khoá đào tạo React miễn phí</h1>
+                <br>
+                <p>Trong suốt 5 năm làm việc chuyên sâu về React, đào tạo cho hàng trăm nhân sự cho các dự án quốc tế,
+                    đội ngũ chuyên gia của chúng tôi đã biên soạn bộ tài liệu đầy đủ và đơn giản nhất giúp bạn làm quen
+                    với React - React Native và có thể ứng dụng ngay trong các dự án của mình.</p>
+                <br>
+                <p>Đây là một phần nội dung trong “Khoá đào tạo mầm non React" của chúng tôi. Tài liệu phù hợp với:</p>
+                <br>
+                <p>
+                    &bull; Các bạn sinh viên lần đầu tiên làm quen với React <br>
+                    &bull; Fresher - Người mới đi làm và mong muốn làm việc về React <br>
+                    &bull; Middle - Lập trình viên đã có kinh nghiệm, muốn trải nghiệm một lĩnh vực mới để thay đổi công
+                    việc</p>
+                <div class="btn1">
+                    <a href="">Tải về miễn phí &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mainFor">
+            <h1 class="maiForContent">Tin tức & Blog</h1>
+
+            <div class="mainForGrid responsive">
+                <a href="">
+                    <div class="mainForItem">
+                        <img src="./assets/image/mainForItem1.png" alt="">
+                        <h1>Review cập nhật mới nhất của thư viện React Native</h1>
+                        <p>01/10/2021 - 28/11/2021</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="mainForItem">
+                        <img src="./assets/image/mainForItem2.png" alt="">
+                        <h1>Khám phá Đà Lạt theo cách của người React</h1>
+                        <p>01/10/2021 - 28/11/2021</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="mainForItem">
+                        <img src="./assets/image/mainForItem3.png" alt="">
+                        <h1>Những mầm non React vượt vũ môn thành công</h1>
+                        <p>01/10/2021 - 28/11/2021</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="mainForItem">
+                        <img src="./assets/image/mainForItem4.png" alt="">
+                        <h1>Review cập nhật mới nhất của thư viện React Native</h1>
+                        <p>01/10/2021 - 28/11/2021</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="mainForItem">
+                        <img src="./assets/image/mainForItem1.png" alt="">
+                        <h1>Review cập nhật mới nhất của thư viện React Native</h1>
+                        <p>01/10/2021 - 28/11/2021</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="mainForItem">
+                        <img src="./assets/image/mainForItem2.png" alt="">
+                        <h1>Khám phá Đà Lạt theo cách của người React</h1>
+                        <p>01/10/2021 - 28/11/2021</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="mainForItem">
+                        <img src="./assets/image/mainForItem3.png" alt="">
+                        <h1>Những mầm non React vượt vũ môn thành công</h1>
+                        <p>01/10/2021 - 28/11/2021</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="mainForItem">
+                        <img src="./assets/image/mainForItem4.png" alt="">
+                        <h1>Review cập nhật mới nhất của thư viện React Native</h1>
+                        <p>01/10/2021 - 28/11/2021</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="mainFire">
+            <h1>Nhận ngay các thông tin mới nhất về Reactjs & React Native nhé.</h1>
+            <div class="inpuds">
+                <input type="text" class="iptext" placeholder="  Nhập địa chỉ email của bạn">
+                <input type="button" class="ipbtn" value="Nhận">
+            </div>
+        </div>
+
     </div>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -106,10 +290,92 @@
         $('.single-item').slick({
             dots: true,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
         });
 
+    </script>
+    <script>
+        $('.responsive').slick({
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1.3,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+    <script>
+        $('.responsives').slick({
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".menu-btn").click(function () {
+                $(".navbar .menu").toggleClass("active");
+                $(".menu-btn i").toggleClass("active");
+            });
+        });
+    </script>
+    <!-- end header -->
     </script>
 </body>
 
