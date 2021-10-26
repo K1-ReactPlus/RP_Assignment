@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .max-width {
     max-width: 1110px;
     padding: 0 15px;
@@ -468,6 +469,8 @@ img {
 }
 
 /*the end CSS mainFire*/
+/*Css footer*/
+
 
 /* reponsive screen ipad */
 
@@ -641,4 +644,107 @@ img {
         height: 44px;
         background-color: #00DAFF;
     }
+}
+
+
+.footerContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 93px;
+}
+
+.footerItemA {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footerItemB {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footerItem p {
+    font-size: 13px;
+    color: #000000;
+    margin-top: 80px;
+}
+
+.footerItem1 a {
+    font-size: 13px;
+    color: #000000;
+    line-height: 40px;
+}
+
+.footerItem2 a {
+    font-size: 13px;
+    color: #000000;
+    line-height: 40px;
+}
+
+.footerItem3 a {
+    font-size: 13px;
+    color: #000000;
+    line-height: 40px;
+}
+
+.footerItem4 a {
+    font-size: 13px;
+    color: #000000;
+    line-height: 40px;
+}
+
+.item-icon a {
+    font-size: 32px;
+    color: #0602e9;
+    line-height: 40px;
+}
+
+hr {
+    margin-top: 42px;
+}
+
+.txtFooter {
+    margin-top: 18px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+
+
+    .footerItem p {
+        font-size: 13px;
+        line-height: 19px;
+        width: 275px;
+        color: #000000;
+        margin-top: 14px;
+    }
+
+    .footerItemA {
+        margin-top: 26px;
+    }
+
+    .footerItemB {
+        margin-top: 34px;
+    }
+
+
+    hr {
+        margin-top: 33px;
+    }
+
+    .txtFooter {
+        margin-top: 18px;
+    }
+
 }
