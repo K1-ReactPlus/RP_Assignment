@@ -12,7 +12,7 @@ body {
 /* main */
 /* banner */
 .main .banner {
-  padding: 150px 0 50px 0;
+  padding: 150px 0 0 0;
 }
 .main .banner .banner__bgborder {
   background-image: url("./../img/border-bg-banner.png");
@@ -47,6 +47,7 @@ body {
   line-height: 21px;
   letter-spacing: -0.02em;
   color: #52575c;
+  margin-bottom: 50px;
 }
 .main .banner .banner__bg {
   background-image: url("./../img/bg-banner.png");
@@ -125,6 +126,7 @@ body {
   border-radius: 44px;
   text-decoration: none;
   padding: 10px 20px;
+  margin: 10px 0;
 }
 .main .question .question__inner .question__inner__left a.question__btn i {
   padding-left: 10px;
@@ -190,6 +192,23 @@ body {
   color: #52575c;
   padding: 0 30px;
 }
+.main
+  .question
+  .question__inner
+  .question__inner__right
+  .question__accordion
+  .question__item
+  .question__item__title[aria-expanded="true"] > h4,
+  .main
+  .question
+  .question__inner
+  .question__inner__right
+  .question__accordion
+  .question__item
+  .question__item__title[aria-expanded="true"] > i {
+    color: #0BBEE7;
+  }
+
 /* end question */
 /* end main */
 /*  */
@@ -202,6 +221,10 @@ body {
   .main .banner {
     padding: 100px 0 0 0;
   }
+  .main .question .question__inner .question__inner__left img {
+    width: 100%;
+    margin: 0 auto;
+  }
   .main .question .question__inner .question__inner__right {
     margin: 0;
   }
@@ -212,7 +235,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 20px;
+    margin: 10px 20px;
   }
   .main .content .content__inner .content__inner__item {
     margin: 15px 0;
