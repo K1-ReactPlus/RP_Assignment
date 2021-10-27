@@ -50,10 +50,26 @@
 }
 
 .menu-btn {
-    color: #00daff;
+    color: #25282B;
     font-size: 23px;
     cursor: pointer;
     display: none;
+}
+
+.menu-btn i {
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.menu.active>li a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #25282B;
 }
 
 @media (max-width: 947px) {
@@ -71,8 +87,8 @@
         right: -100%;
         top: 0;
         background: #F4F6FA;
-        text-align: center;
-        padding-top: 80px;
+        text-align: left;
+        padding: 52px 0 0 40px;
         transition: all 0.3s ease;
     }
     .navbar .menu.active {
@@ -83,8 +99,7 @@
     }
     .navbar .menu li a {
         display: inline-block;
-        margin: 20px 0;
-        font-size: 20px;
+        margin: 14px 0;
     }
 }
 
@@ -127,7 +142,6 @@ img {
 
 .slick-prev {
     left: 10%;
-    
 }
 
 .slick-prev:before {
@@ -472,8 +486,8 @@ img {
 }
 
 /*the end CSS mainFire*/
-/*Css footer*/
 
+/*Css footer*/
 
 /* reponsive screen ipad */
 
@@ -649,7 +663,6 @@ img {
     }
 }
 
-
 .footerContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -716,15 +729,11 @@ hr {
         margin: 0 auto;
         padding: 10px;
     }
-
     .footerContainer {
         display: flex;
         flex-direction: column;
         margin-top: 16px;
     }
-
-
-
     .footerItem p {
         font-size: 13px;
         line-height: 19px;
@@ -732,22 +741,16 @@ hr {
         color: #000000;
         margin-top: 14px;
     }
-
     .footerItemA {
         margin-top: 26px;
     }
-
     .footerItemB {
         margin-top: 34px;
     }
-
-
     hr {
         margin-top: 33px;
     }
-
     .txtFooter {
         margin-top: 18px;
     }
-
 }
