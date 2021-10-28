@@ -59,7 +59,7 @@
 .menu-btn i {
   border: 1px solid #C4C4C4;
   border-radius: 8px;
-  padding: 5px;
+  padding: 4px 6px 3px 6px;
 }
 
 .menu.active > li a {
@@ -79,6 +79,7 @@
   }
   .menu-btn i.active:before {
     content: "\f00d";
+    padding: 1px 1px 0px 1px;
   }
   .navbar .menu {
     position: fixed;
@@ -100,5 +101,6 @@
   .navbar .menu li a {
     display: inline-block;
     margin: 14px 0;
+    border-bottom: none;
   }
 }
