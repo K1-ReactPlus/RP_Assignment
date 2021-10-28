@@ -297,6 +297,12 @@
     font-size:30px;
     cursor: pointer;
 }
+.text h2{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
 .left {
     position:absolute;
     top: 50%;
@@ -334,7 +340,7 @@
     transform: translate(-50%, -50%);
 }
 .container {
-    width: 1080px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
