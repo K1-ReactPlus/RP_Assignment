@@ -116,6 +116,10 @@
 
 /* Slide show */
 
+.slide {
+    padding-top: 100px;
+}
+
 img {
     width: 100%;
 }
@@ -142,6 +146,7 @@ img {
 
 .slick-prev {
     left: 10%;
+    z-index: 9;
 }
 
 .slick-prev:before {
@@ -160,6 +165,18 @@ img {
     right: 10%;
     z-index: 9;
 }
+
+.mainForGrid .slick-next:before {
+    z-index: 9;
+    display: none;
+}
+
+.mainForGrid .slick-prev:before {
+    z-index: 9;
+    display: none;
+}
+
+/*fix none button slick slider*/
 
 /*CSS mainOne*/
 
@@ -291,6 +308,7 @@ img {
 
 .btn a {
     color: #0BBEE7;
+    padding: 8px;
 }
 
 /*The end CSS mainTow*/
@@ -326,7 +344,7 @@ img {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: #D2D1D1;
+    background-color: #0BBEE7;
     border-radius: 50%;
     margin-left: 16%;
     margin-top: -12px;
@@ -391,6 +409,7 @@ img {
     color: #FFFFFF;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    padding: 6px;
 }
 
 /*the end css mainThree*/
@@ -428,16 +447,6 @@ img {
     font-family: 'Poppins', sans-serif;
     color: #A0A4A8;
     margin-top: 12px;
-}
-
-/*fix none button slick slider*/
-
-.slick-next:before {
-    display: none;
-}
-
-.slick-prev:before {
-    display: none;
 }
 
 /*the end css mainFor*/
@@ -660,6 +669,25 @@ img {
         width: 104px;
         height: 44px;
         background-color: #00DAFF;
+    }
+    .mainFire {
+        background-image: url(../image/mainFire.png);
+        background-size: 100% 100%;
+        margin-top: 100px;
+    }
+    .trainingRoute-grid-layout .slick-prev:before {
+        font-size: 28px;
+        color: red;
+        position: relative;
+        top: -26px;
+        right: 65px;
+    }
+    .trainingRoute-grid-layout .slick-next:before {
+        font-size: 28px;
+        color: red;
+        position: relative;
+        top: -26px;
+        right: -56px;
     }
 }
 
