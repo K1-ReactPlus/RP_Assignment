@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            text-decoration: none;
+        }
+        footer {
+            font-family: 'Poppins', sans-serif;
+        }
+        .container {
+            width: 1080px;
+            margin: 0 auto;
+        }
+
+        .footerContainer {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .footerItemA {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .footerItemB {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .footerItem p {
+            font-size: 13px;
+            color: #000000;
+            margin-top: 80px;
+            margin-right: 50px;
+        }
+
+        .footerItem1 a {
+            font-size: 13px;
+            color: #000000;
+            line-height: 40px;
+        }
+
+        .footerItem2 a {
+            font-size: 13px;
+            color: #000000;
+            line-height: 40px;
+        }
+
+        .footerItem3 a {
+            font-size: 13px;
+            color: #000000;
+            line-height: 40px;
+        }
+
+        .footerItem4 a {
+            font-size: 13px;
+            color: #000000;
+            line-height: 40px;
+        }
+
+        .item-icon a {
+            font-size: 32px;
+            color: #0602e9;
+            line-height: 40px;
+        }
+        .footerItem__title {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 19px;
+                letter-spacing: -0.02em;
+                color: #25282B;
+            }  
+            .footerItem__content {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 20px;
+                letter-spacing: -0.02em;
+                color: #000000;
+            }
+
+        hr {
+            margin-top: 42px;
+        }
+
+        .txtFooter {
+            margin-top: 18px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding: 10px;
+            }
+
+            .footerContainer {
+                display: flex;
+                flex-direction: column;
+            }
+
+
+
+            .footerItem p {
+                font-size: 13px;
+                line-height: 19px;
+                width: 275px;
+                color: #000000;
+                margin-top: 14px;
+            }
+
+            .footerItemA {
+                margin-top: 26px;
+            }
+
+            .footerItemB {
+                margin-top: 34px;
+            }
+
+
+            hr {
+                margin-top: 33px;
+            }
+
+            .txtFooter {
+                margin-top: 18px;
+            }
+
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <footer>
+            <div class="footerContainer">
+                <div class="footerItem">
+                    <a href=""><img src="./image/logo.png"></a>
+                    <p>Tầng 7, Golden Field Building,
+                        24 Nguyễn Cơ Thạch, Nam Từ Liêm, Hà Nội</p>
+                </div>
+                <div class="footerItemA">
+                    <div class="footerItem1">
+                        <a class="footerItem__title" href=""><b>Cộng đồng</b> </a> <br>
+                        <a class="footerItem__content" href="">Đào tạo & Sự kiện</a><br>
+                        <a class="footerItem__content" href="">Vì cộng đồng</a><br>
+                        <a class="footerItem__content" href="">Tin tức & Blog</a>
+                    </div>
+                    <div class="footerItem2">
+                        <a class="footerItem__title" href=""><b>Công ty</b> </a><br>
+                        <a class="footerItem__content" href="">Giới thiệu</a><br>
+                        <a class="footerItem__content" href="">Văn hoá</a><br>
+                        <a class="footerItem__content" href="">Tuyển dụng</a>
+                    </div>
+
+                </div>
+                <div class="footerItemB">
+                    <div class="footerItem3">
+                        <a class="footerItem__title" href=""><b>Liên hệ</b> </a><br>
+                        <a class="footerItem__content" href=""><img src="" alt="">0349177306</a><br>
+                        <a class="footerItem__content" href=""><img src="" alt="">contact@reactplus.jp</a>
+                    </div>
+                    <div class="footerItem4">
+                        <a class="footerItem__title" href=""><b>Kết nối với chúng tôi</b></a><br>
+                        <div class="item-icon">
+                            <a href=""><i class="fab fa-facebook" sizes=33px></i></a>
+                            <a href=""><i class="fab fa-invision"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="txtFooter">© React Plus, JSC 2021. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/977455f623.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
