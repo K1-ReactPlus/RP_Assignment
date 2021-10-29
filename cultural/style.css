@@ -411,6 +411,7 @@ hr {
     .news {
         display: flex;
         flex-direction: column !important;
+        padding: 0 30px;
     }
     .img-new {
         width: 100%;
